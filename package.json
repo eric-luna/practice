@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "pratice website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass" : "node-sass scss/main.scss --output css --source-map-embed --source-map-contents --output-style compressed",
+    "watch:sass": "npm run sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericluna92/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericluna92/practice/issues"
+  },
+  "homepage": "https://github.com/ericluna92/practice#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
